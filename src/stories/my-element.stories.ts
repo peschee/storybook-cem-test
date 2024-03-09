@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/web-components';
-
 import { html } from 'lit';
+
 import '../my-element';
 
 const meta: Meta = {
@@ -12,5 +12,8 @@ export default meta;
 type Story = StoryObj;
 
 export const Primary: Story = {
-    render: () => html`<my-element></my-element>`,
+    args: {
+        docsHint: 'Bla…',
+        count: 4,
+    }
 };

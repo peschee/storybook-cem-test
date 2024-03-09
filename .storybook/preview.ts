@@ -1,6 +1,6 @@
 import type { Preview } from '@storybook/web-components';
 import { setCustomElementsManifest } from '@storybook/web-components';
-import * as cem from './custom-elements.json';
+import cem from './custom-elements.json';
 
 setCustomElementsManifest(cem);
 

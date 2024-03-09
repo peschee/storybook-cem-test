@@ -8,6 +8,9 @@ import viteLogo from '/vite.svg'
  *
  * @slot - This element has a slot
  * @csspart button - The button
+ * 
+ * @cssproperty {length} [--some-size=1em] - A comment about some size
+ * @cssproperty [--animation-duration=1s] - Duration of the animation
  */
 @customElement('my-element')
 export class MyElement extends LitElement {

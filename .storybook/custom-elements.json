@@ -10,6 +10,21 @@
           "kind": "class",
           "description": "An example element.",
           "name": "MyElement",
+          "cssProperties": [
+            {
+              "type": {
+                "text": "length"
+              },
+              "description": "The size of the circle",
+              "name": "--circle-size",
+              "default": "1em"
+            },
+            {
+              "description": "Duration of the circle animation",
+              "name": "--animation-duration",
+              "default": "1s"
+            }
+          ],
           "cssParts": [
             {
               "description": "The button",
